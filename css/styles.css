@@ -252,7 +252,13 @@ nav a{
 
 @media (max-width: 1020px) {
 
+  .container-fluid {
+    padding: 5%;
+  }
 
+  body{
+    text-align:justify;
+  }
 
   h1 {
     margin-top: 50px;
