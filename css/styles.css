@@ -307,6 +307,12 @@ nav a{
     margin-bottom: 50px;
   }
 
+  .button-bar {
+    margin: 400px auto 100px;
+    position: relative;
+    bottom: auto;
+  }
+
   .background-image{
     margin: auto;
     max-width: 100%;
@@ -314,5 +320,6 @@ nav a{
     background-image: url('../images/blunderbusslogo.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 
 }
