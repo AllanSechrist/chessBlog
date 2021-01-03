@@ -308,16 +308,11 @@ nav a{
   }
 
   .background-image{
-
-    max-width: 100vw;
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
     background-image: url('../images/blunderbusslogo.png');
-
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
